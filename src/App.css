@@ -1,3 +1,42 @@
+.wrapper{
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-card{
+  background-color: #fff9e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 5px 5px 20px black;
+  position: relative;
+}
+#title{
+  color: #003049;
+}
+svg{
+  background-color: #fff9e6;
+  border-radius: 10px;
+  padding: 10px;
+}
+.bar{
+  fill: #669bbc;
+}
 .bar:hover{
-  fill: blue;
+  fill: #003049;
+}
+
+#tooltip{
+  width: 120px;
+  position: absolute;
+  background-color: hsla(201, 100%, 14%, 0.8);
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  opacity: 0;
 }
